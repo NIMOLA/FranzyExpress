@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { MapPin, Users, TrendingUp, Bike } from "lucide-react";
 import { Button } from "./ui/button";
-import heroRiderImage from "figma:asset/b97de6249576c718f8f040064f6b5d4ff42784d8.png";
+import heroRiderImage from "@/assets/b97de6249576c718f8f040064f6b5d4ff42784d8.png";
 
 interface HeroProps {
   onBookRider: () => void;

@@ -72,7 +72,8 @@ export function UserGuide() {
     // Check if user has seen the guide before
     const seen = localStorage.getItem("franzyxpress-guide-seen");
     console.log("UserGuide: Checking if guide was seen before:", seen);
-    if (!seen) {
+    // Disabled auto-start to prevent the dark overlay issue
+    if (false) {
       // Show guide after a short delay for first-time users
       console.log("UserGuide: First time user detected, showing guide in 1.5s");
       setTimeout(() => {

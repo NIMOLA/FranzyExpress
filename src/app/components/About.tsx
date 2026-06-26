@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { Heart, Users, MapPin, Zap, Shield, TrendingUp } from "lucide-react";
-import aboutImage from "figma:asset/588fae39d5438ff1eb9ba5d1e797a76fe3c8a727.png";
+import aboutImage from "@/assets/588fae39d5438ff1eb9ba5d1e797a76fe3c8a727.png";
 
 const values = [
   {

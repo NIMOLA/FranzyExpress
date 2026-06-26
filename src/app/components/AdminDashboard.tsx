@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Package, MessageSquare, Clock, X, LogOut, ChevronDown, Sparkles } from "lucide-react";
 import { Button } from "./ui/button";
 import { projectId, publicAnonKey } from "../utils/supabase/info";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 
 interface Order {
   id: string;

@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from "motion/react";
 import { MessageSquare, X, Send, Package, MapPin, HelpCircle } from "lucide-react";
 import { useState, useEffect } from "react";
 import { Button } from "./ui/button";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 import { projectId, publicAnonKey } from "../utils/supabase/info";
 
 interface Message {

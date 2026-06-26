@@ -4,7 +4,7 @@ import { Lock, X, LogIn, UserPlus, User, Shield } from "lucide-react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Label } from "./ui/label";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 import { projectId, publicAnonKey } from "../utils/supabase/info";
 
 interface AuthModalProps {
